@@ -11,18 +11,19 @@ declared-services:
     name: language-translation-service
     label: language_translation
     plan: standard
-  iot-platform-service:
-    label: Internet of Things Platform
-    plan: free
+  iotf-service:
+    label: iotf-service
+    plan: iotf-service-free
 applications:
 - services:
   - speech_to_text
   - text_to_speech
   - language_translation
+  - iotf-service
   name: watson-iot-echo
   command: node app.js
   path: .
-  memory: 2048M
+  memory: 1024M
   instances: 4
   env:
     NODE_ENV: production
