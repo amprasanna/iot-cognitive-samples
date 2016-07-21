@@ -1,15 +1,14 @@
 /**
- * Copyright 2015 IBM Corp. All Rights Reserved.
- * <p>
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
- * in compliance with the License. You may obtain a copy of the License at
- * <p>
- * http://www.apache.org/licenses/LICENSE-2.0
- * <p>
- * Unless required by applicable law or agreed to in writing, software distributed under the License
- * is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
- * or implied. See the License for the specific language governing permissions and limitations under
- * the License.
+ * 
+ *****************************************************************************
+ Copyright (c) 2016 IBM Corporation and other Contributors.
+ All rights reserved. This program and the accompanying materials are made available under the terms of the Eclipse Public License v1.0
+ which accompanies this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html
+ Contributors:
+ Sathiskumar Palaniappan - Initial Contribution
+ Prasanna Alur Mathada - Initial Contribution
+ *****************************************************************************
+ *
  */
 package com.ibm.watsoniot;
 
