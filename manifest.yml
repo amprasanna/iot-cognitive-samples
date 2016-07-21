@@ -13,13 +13,14 @@ declared-services:
     plan: free
 applications:
 - services:
-  - iot-platform-service
-  - iot-speech-to-text-service
-  - iot-text-to-speech-service
-  - iot-language-translation-service
+  iot-platform-service
+  iot-speech-to-text-service
+  iot-text-to-speech-service
+  iot-language-translation-service
   name: watson-iot-echo
   command: node app.js
   path: .
   memory: 2048M
+  instances: 4
   env:
     NODE_ENV: production
