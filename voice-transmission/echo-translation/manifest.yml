@@ -1,11 +1,20 @@
 declared-services:
-  iot-dialog-service:
-    label: dialog
+  iot-speech-to-text-service:
+    label: Speech to Text
     plan: standard
+  iot-text-to-speech-service:
+    label: Text to Speech
+    plan: standard
+  iot-language-translation-service:
+    label: Language Translation
+    plan: standard
+  iot-platform-service:
+    label: Internet of Things Platform
+    plan: free
 applications:
 - services:
-  - iot-dialog-service
-  name: watson-iot-dialog
+  - iot-echo-translation-service
+  name: watson-iot-echo
   command: node app.js
   path: .
   memory: 512M
