@@ -1,28 +1,28 @@
 {
-  "name": "WatsonIoTwithDialog",
+  "name": "WatsonIoTwithEcho",
   "version": "0.0.2",
-  "description": "A sample nodejs app for integrating Watson IoT platform with Watson Dialog service",
+  "description": "A sample nodejs app for integrating Watson IoT platform with Watson services - Speech To Text, Language Translation & Text To Speech",
   "engines": {
     "node": ">=0.10.38"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jeffdare/temp.git"
+    "url": "https://github.com/amprasanna/iot-cognitive-samples/tree/master/voice-transmission/echo-translation/temp.git"
   },
   "author": "IBM Corp.",
   "contributors": [
     {
-      "name": "Jeffrey Dare",
-      "email": "jeffdare@in.ibm.com"
+      "name": "Prasanna A Mathada",
+      "email": "amprasanna@in.ibm.com"
     }
   ],
   "license": "EPL-1.0",
   "bugs": {
-    "url": "https://github.com/jeffdare/temp/issues"
+    "url": "https://github.com/amprasanna/iot-cognitive-samples/tree/master/voice-transmission/echo-translation/temp/issues"
   },
   "scripts": {
     "start": "node app.js",
-    "postinstall": "node dialogs/install-dialogs.js"
+    "postinstall": "node echo/install-echo.js"
   },
   "dependencies": {
     "async": "^1.5.1",
