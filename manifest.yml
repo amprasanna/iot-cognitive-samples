@@ -1,12 +1,15 @@
 declared-services:
-  iot-speech-to-text-service:
-    label: Speech to Text
+  speech_to_text:
+    name: speech-to-text-service-standard
+    label: speech_to_text
     plan: standard
-  iot-text-to-speech-service:
-    label: Text to Speech
+  text_to_speech:
+    name: text-to-speech-service
+    label: text_to_speech
     plan: standard
-  iot-language-translation-service:
-    label: Language Translation
+  language_translation:
+    name: language-translation-service
+    label: language_translation
     plan: standard
   iot-platform-service:
     label: Internet of Things Platform
