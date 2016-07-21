@@ -12,7 +12,7 @@ declared-services:
     label: Internet of Things Platform
     plan: free
 applications:
-- services: -
+- services:
   - iot-platform-service
   - iot-speech-to-text-service
   - iot-text-to-speech-service
