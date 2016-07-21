@@ -13,8 +13,8 @@ declared-services:
     plan: free
 applications:
 - services:
-  - iot-platform-service
-  - iot-speech-to-text-service
+  - "Speech to Text"
+  - 'Text to Speech'
   - iot-text-to-speech-service
   - iot-language-translation-service
   name: watson-iot-echo
