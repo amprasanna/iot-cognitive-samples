@@ -12,6 +12,8 @@
   "author": "IBM Corp.",
   "contributors": [
     {
+      "name": "Sathiskumar Palaniappan",
+      "email": "sathipal@in.ibm.com",
       "name": "Prasanna A Mathada",
       "email": "amprasanna@in.ibm.com"
     }
@@ -21,8 +23,7 @@
     "url": "https://github.com/amprasanna/iot-cognitive-samples/temp/issues"
   },
   "scripts": {
-    "start": "node app.js",
-    "postinstall": "node echo/install-echo.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "async": "^1.5.1",
