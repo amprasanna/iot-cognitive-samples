@@ -13,10 +13,10 @@ declared-services:
     plan: free
 applications:
 - services:
-  - Speech to Text
-  - Text to Speech
+  - speech-to-text
+  - text-to-speech
   - Language Translation
-  - Internet of Things Platform
+  - iot-platform-service
   name: watson-iot-echo
   command: node app.js
   path: .
