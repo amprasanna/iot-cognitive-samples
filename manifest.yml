@@ -22,6 +22,7 @@ applications:
   - iotf-service
   name: watson-iot-echo
   command: node app.js
+  buildpack: sdk-for-nodejs
   path: .
   memory: 1024M
   instances: 4
