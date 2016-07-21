@@ -12,11 +12,11 @@ declared-services:
     label: Internet of Things Platform
     plan: free
 applications:
-- services:
-  iot-platform-service
-  iot-speech-to-text-service
-  iot-text-to-speech-service
-  iot-language-translation-service
+- services: -
+  - iot-platform-service
+  - iot-speech-to-text-service
+  - iot-text-to-speech-service
+  - iot-language-translation-service
   name: watson-iot-echo
   command: node app.js
   path: .
