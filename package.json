@@ -22,7 +22,7 @@
     "async": "^1.5.1",
     "body-parser": "~1.14.1",
     "errorhandler": "~1.4.1",
-    "express": "~4.13.3",
+    "express": "*",
     "request": "^2.67.0",
     "watson-developer-cloud": "~1.0.6",
     "node-red-contrib-scx-ibmiotapp":"0.x",
