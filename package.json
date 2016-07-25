@@ -1,5 +1,5 @@
 {
-  "name": "WatsonIoTwithEcho",
+  "name": "watson-iot-echo",
   "version": "0.0.2",
   "description": "A sample nodejs app for integrating Watson IoT platform with Watson services - Speech To Text, Language Translation & Text To Speech",
   "engines": {
@@ -32,6 +32,9 @@
     "express": "~4.13.3",
     "request": "^2.67.0",
     "watson-developer-cloud": "~1.0.6",
+    "node-red-contrib-scx-ibmiotapp":"0.x",
+    "node-red": "0.x",
+    "node-red-bluemix-nodes":"0.x",
     "ibmiotf": "~0.2.12"
   }
 }
