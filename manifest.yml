@@ -21,10 +21,7 @@ applications:
   - language_translation
   - iotf-service
   name: watson-iot-echo
-  command: node app.js
-  buildpack: sdk-for-nodejs
-  path: .
+  host: watson-iot-echo
   memory: 1024M
   instances: 4
-  env:
-    NODE_ENV: production
+  disk_quota: 2048M
