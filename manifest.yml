@@ -27,5 +27,5 @@ applications:
   name: watson-iot-echo
   host: watson-iot-echo
   memory: 1024M
-  instances: 4
+  instances: 1
   disk_quota: 2048M
