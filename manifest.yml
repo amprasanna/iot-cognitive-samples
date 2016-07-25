@@ -26,6 +26,6 @@ applications:
   - cloudantNoSQLDB
   name: watson-iot-echo
   host: watson-iot-echo
-  memory: 1024M
+  memory: 512M
   instances: 4
-  disk_quota: 2048M
+  disk_quota: 1024M
