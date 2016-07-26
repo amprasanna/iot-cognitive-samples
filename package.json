@@ -24,11 +24,9 @@
     "errorhandler": "~1.4.1",
     "express": "*",
     "request": "^2.67.0",
-    "watson-developer-cloud": "~1.0.6",
-    "node-red-contrib-scx-ibmiotapp":"0.x",
     "node-red": "0.x",
     "node-red-bluemix-nodes":"0.x",
-    "ibmiotf": "~0.2.12",
+    "watson-developer-cloud": "~1.0.6",
     "cookie-parser":"*",
     "morgan":"*",
     "node-rest-client":"*",
@@ -44,6 +42,7 @@
     "node-red-contrib-ibmpush":"0.x",
     "node-red-contrib-bluemix-hdfs":"0.x",
     "node-red-nodes-cf-sqldb-dashdb":"0.x",
+    "node-red-contrib-scx-ibmiotapp":"0.x",
     "request":"~2.36.0"
   },
   "config": {
