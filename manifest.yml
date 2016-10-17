@@ -34,8 +34,8 @@ applications:
   - weather_data_company
   - iotf-service
   - cloudantNoSQLDB
-  name: watson-iot-echo
-  host: watson-iot-echo
+  name: watson-cognitive-iot
+  host: watson-cognitive-iot
   memory: 1024M
   instances: 1
   disk_quota: 2048M
