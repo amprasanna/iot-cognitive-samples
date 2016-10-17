@@ -11,6 +11,14 @@ declared-services:
     name: language-translation-service
     label: language_translation
     plan: standard
+  conversation:
+    name: Conversation-3k
+    label: conversation
+    plan: free
+  weather_data_company:
+    name: Weather Company Data-su
+    label: weatherinsights
+    plan: Free-v2
   iotf-service:
     label: iotf-service
     plan: iotf-service-free
@@ -22,6 +30,8 @@ applications:
   - speech_to_text
   - text_to_speech
   - language_translation
+  - conversation
+  - weather_data_company
   - iotf-service
   - cloudantNoSQLDB
   name: watson-iot-echo
